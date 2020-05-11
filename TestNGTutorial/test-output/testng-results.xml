@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="132" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="MccgDemo.ruote()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="ruote" class="com.testNG.MccgDemo"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="132" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+      <class name="com.testNG.MccgDemo">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="init" is-config="true" duration-ms="27" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="checkConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="checkConnectivity" is-config="true" duration-ms="1" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnectivity -->
+        <test-method status="PASS" signature="checkGateWay()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="checkGateWay" duration-ms="9" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGateWay -->
+        <test-method status="PASS" signature="closeConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="closeConnectivity" is-config="true" duration-ms="1" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnectivity -->
+        <test-method status="PASS" signature="checkQueue()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="checkQueue" duration-ms="2" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkQueue -->
+        <test-method status="PASS" signature="checkConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="checkConnectivity" is-config="true" duration-ms="0" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnectivity -->
+        <test-method status="PASS" signature="closeConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="closeConnectivity" is-config="true" duration-ms="0" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnectivity -->
+        <test-method status="PASS" signature="checkConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="checkConnectivity" is-config="true" duration-ms="1" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnectivity -->
+        <test-method status="PASS" signature="call()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="call" duration-ms="4" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method status="PASS" signature="closeConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="closeConnectivity" is-config="true" duration-ms="0" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnectivity -->
+        <test-method status="PASS" signature="ruote()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="ruote" duration-ms="2" started-at="2020-02-17T17:10:28 IST" depends-on-methods="com.testNG.MccgDemo.checkGateWay, com.testNG.MccgDemo.checkQueue" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruote -->
+        <test-method status="PASS" signature="checkConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="checkConnectivity" is-config="true" duration-ms="0" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnectivity -->
+        <test-method status="PASS" signature="closeConnectivity()[pri:0, instance:com.testNG.MccgDemo@2ac273d3]" name="closeConnectivity" is-config="true" duration-ms="2" started-at="2020-02-17T17:10:28 IST" finished-at="2020-02-17T17:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnectivity -->
+      </class> <!-- com.testNG.MccgDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

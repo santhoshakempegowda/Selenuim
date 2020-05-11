@@ -1,0 +1,22 @@
+@BeforeTest:
+-----------
+ --> BeforTest is for entire test suite, it executes only once for entire test suite and executes before all the @Test methods.
+ --> if you declare BeforeTest in multiple classes then it follows the order defined in xml file, if ChatAdapter is the first class defined in test suite in xml 
+ 		then BeforeTest from ChatAdapter will execute first and then  BeforeTest from EmailAdapter will execute and so on
+ 		
+@AfterTest:
+----------
+ --> AfterTest is for entire test suite, it executes only once for entire test suite and executes after all the @Test methods complete
+ --> multiple AfterTest will work in same way as multiple BeforeTest
+ 
+@BeforeMethod:
+--------------
+ --> BeforeMethod is particular to a class, it executes before each and every @Test methods inside that class
+
+@BeforeMethod:
+--------------
+--> AfterMethod is particular to a class, it executes after each and every @Test methods inside that class
+
+
+ 
+	

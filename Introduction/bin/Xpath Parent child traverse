@@ -1,0 +1,32 @@
+Suppose if you don't find any unique attribute (id, name etc) to locate an element , then we use parent child 
+relation traverse
+
+$x("//div[@class='RNNXgb']/div/div[2]/input")
+
+TO GET XAPTH FOR INPUT ELEMENT:
+--> Identify the parent/grandparent take unique attribute form that tag  (//div[@class='RNNXgb']) 
+--> traverse down to the child element  (//div[@class='RNNXgb']/div)
+--> In second div there are 3 div elements, but input element is in second div so use div[2] (//div[@class='RNNXgb']/div/div[2])
+--> now the element you want to find (//div[@class='RNNXgb']/div/div[2]/input)
+
+
+<div class="RNNXgb" jsname="RNNXgb">
+	<div class="SDkEP">
+		<div class="iblpc" jsname="uFMOof">
+			<style>.uFMOof{margin:auto}.nS8rZ{color:#9AA0A6;height:20px;width:20px;margin-top:3px}</style>
+			<div class="uFMOof"> <span class="nS8rZ z1asCe MZy1Rb"></span> </div>
+		</div>
+		<div jscontroller="iDPoPb" class="a4bIc" jsname="gLFyf" jsaction="h5M12e;input:d3sQLd;focus:dFyQEf;blur:jI3wzf">
+			<style>.gLFyf{background-color:transparent;border:none;margin:0;padding:0;color:rgba(0,0,0,.87);word-wrap:break-word;outline:none;display:flex;flex:100%;-webkit-tap-highlight-color:transparent;margin-top:-37px}.minidiv .gLFyf{margin-top:-35px;}.a4bIc{display:flex;flex:1;flex-wrap:wrap}.vdLsw{color:transparent;flex:100%;white-space:pre}.vdLsw span{background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;padding:0 0 10px 0;}</style>
+			<div class="vdLsw gsfi" jsname="vdLsw"></div>
+	---->	<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="" aria-label="Search" data-ved="0ahUKEwih793hnuvkAhXwTN8KHbDQB7QQ39UDCAY">
+		</div>
+		<div class="dRYYxd">
+			<style>.dRYYxd{display:flex;flex:0 0 auto;margin-top:-5px;align-items:stretch;flex-direction:row}.minidiv .dRYYxd{margin-top:0}</style>
+			<style>.JC0tCe{flex:1 0 auto;display:flex;cursor:pointer;align-items:center;border:0;background:transparent;outline:none;padding:0 8px;width:24px;line-height:44px}.hb2Smf{background:url('//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;height:24px;width:24px;background-size:24px;vertical-align:middle}.minidiv .JC0tCe{line-height:32px}.minidiv .hb2Smf{background-size:20px 20px;height:20px;width:16px}</style>
+			<div jscontroller="MC8mtf" class="JC0tCe" aria-label="Search by voice" role="button" tabindex="0" jsaction="h5M12e;rcuQ6b:npT2md" data-ved="0ahUKEwih793hnuvkAhXwTN8KHbDQB7QQvs8DCAc">
+					<span class="hb2Smf"></span>
+			</div>
+		</div>
+	</div>
+</div>

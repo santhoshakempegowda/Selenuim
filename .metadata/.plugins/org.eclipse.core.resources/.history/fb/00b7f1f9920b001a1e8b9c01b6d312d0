@@ -1,0 +1,23 @@
+package com.selenium.UI.elements;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CalanderFromAndToDate {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\\\software\\\\chromedriver_win32\\\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.spicejet.com/");
+		driver.findElement(By.id("ctl00_mainContent_view_date1")).click();
+		String css = "div[id='ui-datepicker-div'] div[class='ui-datepicker-group ui-datepicker-group-last'] div[class='ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-right'] div[class='ui-datepicker-title']";
+		String next = "[class='ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-right'] [class='ui-datepicker-next ui-corner-all']";
+		while(!driver.findElement(By.cssSelector(css)).getText().equalsIgnoreCase("February 2020")) {
+			driver.findElement(By.cssSelector(next)).click();
+		}
+
+	}
+
+}

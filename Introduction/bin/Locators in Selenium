@@ -1,0 +1,8 @@
+Locators supported by Selenium WebDriver to locate the element/s
+
+1) Id
+2) ClassName
+3) Name
+4) linkText
+5) Xpath
+6) css

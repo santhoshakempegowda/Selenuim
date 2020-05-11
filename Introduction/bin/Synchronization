@@ -1,0 +1,18 @@
+Implicit Wait :
+
+--> will define a wait time globally.If there are 100 test cases then we can set an Implicit wait so that it will wait for some time between each step in entire test cases.
+	Driver will wait for N number of seconds .i.e the time configured in Implicit wait
+	Suppose if sepcify 5 sec , when clicked on search Driver will keep on listening to DOM to check whether result is available , 
+	if result is available within 3 sec then it will come out of the wait instead of waiting for 5 Sec.
+	If result is not available even after 5 sec then exception is thrown
+
+Explicit Wait :
+
+--> Will define a wait time specifically not globally. we can configure an explicit wait on specific web elements.
+
+Thread.sleep() :
+--> Java method will hold the driver till the time specified in sleep method , it will not listen to DOM.
+
+
+
+	

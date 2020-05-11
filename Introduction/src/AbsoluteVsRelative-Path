@@ -1,0 +1,7 @@
+The path with reference to root directory is called absolute. 
+The path with reference to current directory is called relative.
+
+absolute path (the one accessed directly using unique attribute) --> //*[@id='test1']
+relative path is the one done using parent child relationship     --> //div[@class='RNNXgb']/div/div[2]/input 
+
+absolute path is always better incase if tag changes tomorrow because of code refactoring then relative path will not work
